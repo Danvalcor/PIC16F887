@@ -40,7 +40,8 @@ Practice_01/
 > Note on button polarity: the code assumes **active‑LOW** (press → RD0 = 0) unless stated otherwise. If your wiring is active‑HIGH, invert the conditions as documented below.
 **Schematic:**
 
-![Practice 01 Schematic](./Practice_01/Media/Practice01_Schematic_Drawing.png)
+![Practice 01 Schematic](./Media/Practice01_Schematic_Drawing.png)
+
 ---
 
 ## Pin mapping
@@ -99,7 +100,7 @@ if (PORTD.RD0 == 0) {   // pressed (LOW)
 
 **Demo:** 
 ---
-![P1\_1 runtime](./Practice_01/Media/P1_1_runtime.gif)
+![P1\_1 runtime](.//Media/P1_1_runtime.gif)
 
 ---
 
@@ -135,7 +136,7 @@ if (button_pressed()) {
 
 **Demo:**
 ---
-![P1\_2 runtime](./Practice_01/Media/P1_2_runtime.gif)
+![P1\_2 runtime](./Media/P1_2_runtime.gif)
 
 
 ---
